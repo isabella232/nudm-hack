@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nudm-webapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="nudm-webapp.war">
+      <element id="artifact" artifact-name="nudm-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

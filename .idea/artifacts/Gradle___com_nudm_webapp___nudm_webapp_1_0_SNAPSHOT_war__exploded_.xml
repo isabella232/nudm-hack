@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.nudm.webapp : nudm-webapp-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/nudm-webapp/exploded/nudm-webapp-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="nudm-webapp_main/web/Web Gradle : nudm-webapp-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="nudm-webapp_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.0.3.RELEASE" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/nudm-webapp/exploded/nudm-webapp-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
