@@ -1,1 +1,1 @@
-[Setting up your enviornment](../setup.md)
+[Setting up your enviornment](./setup.md)
