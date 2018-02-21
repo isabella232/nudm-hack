@@ -1,4 +1,6 @@
-
+TLDR; 
+[Setting up](./setup.md)
+[Submitting your project](#how-to-submit)
 Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
  
 * Okay, I signed up for this, now what?
@@ -60,7 +62,7 @@ Okay, so now that you have the basic guidelines down, it’s time to get started
 
 The database and data is there for you to help get started. Feel free to use as is, change in any way you choose, or not use it at all.
 
-## **How do I win? What do I win? Am I going to Disney World?**
+## <a name="how-to-submit">**How do I win? What do I win? Am I going to Disney World?**
 
 We saved the important details for last! And these details are ones you need to follow. So get your erasers and don’t color outside the lines here.  
 
