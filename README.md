@@ -5,22 +5,22 @@
 
 ***
 
-### Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
+### Here are the guidelines to the NUDM Tech Challenge. This will cover everything you need to know, such as:
  
 * [Okay, I signed up for this, now what?](#intro)
 * [What actually is the challenge I am trying to solve?](#challenge-statement)
 * [Suggestions?](#suggestions) [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!
-* [Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?](#Glossary)
+* [Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?](#glossary)
 * [Um, how do I get my environment set up? And what about data?](#setup)
 * [How do I win? What do I win? Am I going to Disney World?](#how-to-submit)
  
 ## <a name="intro">**Okay, I signed up for this, now what?**
  
-Congratulations! You’re already off to a good start by reading these guidelines. Next, let's set the vibe for the hack. We have provided many tools to help guide your progress during the event. However, it is only a guide. Feel free to stray from anything we have provided and come up with solutions even better than we could have imagined. The only real requirement is to build something that solves any piece of the challenge statement: **match volunteers with organizations and vice versa**. Oh, and more importantly, to have fun!
+Congratulations! You’re already off to a good start by reading these guidelines. Next, let's set the vibe for the challenge. We have provided many tools to help guide your progress during the event. However, it is only a guide. Feel free to stray from anything we have provided and come up with solutions even better than we could have imagined. The only real requirement is to build something that solves any piece of the challenge statement: **match volunteers with organizations and vice versa**. Oh, and more importantly, to have fun!
  
 ## <a name="challenge-statement">**What actually is the challenge I am trying to solve?**
  
-NUDM raises money for tons of different charitable organizations. Can you guess what goes hand in hand with charitable organizations? VOLUNTEERING! This hack is a chance for you to help **match volunteers with organizations and vice versa**. Who knows, maybe during the process you’ll find some awesome organization to get involved with.
+NUDM raises money for tons of different charitable organizations. Can you guess what goes hand in hand with charitable organizations? VOLUNTEERING! This challenge is a chance for you to help **match volunteers with organizations and vice versa**. Who knows, maybe during the process you’ll find some awesome organization to get involved with.
  
 Evanston Community Foundation -- cool kids call it ECF -- is a huge resource to the Evanston community. ECF connects different organizations throughout the community, helping the community help one another. Currently they use the city of Evanston volunteer [site](https://volunteerevanston.galaxydigital.com/need/) to match volunteers to opportunities, but perhaps it could be done even better. Here is your opportunity to generate a solution that solves what the existing site solves and more. Listed in no particular order are some ideas to get you started — _and remember, don’t be afraid to color outside the lines_:
 
@@ -37,7 +37,7 @@ Evanston Community Foundation -- cool kids call it ECF -- is a huge resource to 
  
 The above-mentioned list is a summary of our suggestions, but for our real suggestions, please see the suggestions document. You van view this excel sheet by downloadin the repository and opening suggestions.xslx. It is not expected that all (or even any) of the suggestions will get done, as they are in no particular order, but f you choose to solve the challenge of **match volunteers with organizations and vice versa**, in some other way, go at it! It will be more impressive if you get a few things done really well, rather than trying to do it all. However, if you can get it all done, and do it well then that’s cool too. Just make sure you follow our number one rule, HAVE FUN!
  
-Another thing to keep in mind besides having fun is to keep the ‘hack-a-thon’ mentality. This means the things you learn in school about security, complete features, and edge cases - erase from your mind. No need to consider those or things like login unless you really want to handle it. 
+Another thing to keep in mind besides having fun is to keep the ‘tech challenge' mentality. This means the things you learn in school about security, complete features, and edge cases - erase from your mind. No need to consider those or things like login unless you really want to handle it. 
 
 
 ## <a name="glossary">**Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?**
@@ -70,7 +70,7 @@ The database and data is there for you to help get started. Feel free to use as 
 
 We saved the important details for last! And these details are ones you need to follow. So get your erasers and don’t color outside the lines here.  
 
-On Friday at 7 a.m., your hackathon project is due. Your final project should include a 5 - min demo of your project and your code. The code can be a link to your git repository or a zipfile. Make sure to also include a little information about the members of your team, including year in the program and anything else you would like for us to know about you. This should all be emailed to nudmhackathon@hs2solututions.com. When is it due? Friday, March 2nd, 7 a.m. CST! The HS2 judges will then review the entries. By 10 a.m., we will notify the three finalists. On Friday from, 2 p.m. - 4 p.m., top finalists will present at the Norris University Center for Final Presentations.  Winning team will be chosen by peers and judges.
+On Friday at 7 a.m., your tech challenge project is due. Your final project should include a 5 - min demo of your project and your code. The code can be a link to your git repository or a zipfile. Make sure to also include a little information about the members of your team, including year in the program and anything else you would like for us to know about you. This should all be emailed to nudmtechchallenge@hs2solututions.com. When is it due? Friday, March 2nd, 7 a.m. CST! The HS2 judges will then review the entries. By 10 a.m., we will notify the three finalists. On Friday from, 2 p.m. - 4 p.m., top finalists will present at the Norris University Center for Final Presentations.  Winning team will be chosen by peers and judges.
 
 The first round of judging for the three finalists will be judged on the following:
 
@@ -83,7 +83,7 @@ The first round of judging for the three finalists will be judged on the followi
 
 ## **What do I win?**
 
-Bragging rights! Some awesome HS2 Swag! And $2,000 will be allocated to the NUDM fundraising totals to the dance-a-thon team or individual chosen by the hack-a-thon winners. 
+Bragging rights! Some awesome HS2 Swag! And $2,000 will be allocated to the NUDM fundraising totals to the dance-a-thon team or individual chosen by the tech challenge winners. 
 
 ## **Am I going to Disney World?**
 
