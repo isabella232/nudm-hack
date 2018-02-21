@@ -1,4 +1,5 @@
 #TLDR; 
+* [Challenge Statement](#challenge-statement)
 * [Setting up](./setup.md)
 * [Submitting your project](#how-to-submit)
 
@@ -6,18 +7,18 @@
 
 ### Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
  
-* Okay, I signed up for this, now what?
-* What actually is the challenge I am trying to solve?
-* Suggestions? [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!
-* Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?
-* [Um, how do I get my environment set up? And what about data?](./setup.md)
-* How do I win? What do I win? Am I going to Disney World?
+* [Okay, I signed up for this, now what?](#intro)
+* [What actually is the challenge I am trying to solve?](#challenge-statement)
+* [Suggestions?](#suggestions) [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!
+* [Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?](#Glossary)
+* [Um, how do I get my environment set up? And what about data?](#setup)
+* [How do I win? What do I win? Am I going to Disney World?](#how-to-submit)
  
-## **Okay, I signed up for this, now what?**
+## <a name="intro">**Okay, I signed up for this, now what?**
  
 Congratulations! You’re already off to a good start by reading these guidelines. Next, let's set the vibe for the hack. We have provided many tools to help guide your progress during the event. However, it is only a guide. Feel free to stray from anything we have provided and come up with solutions even better than we could have imagined. The only real requirement is to build something that solves any piece of the challenge statement: **match volunteers with organizations and vice versa**. Oh, and more importantly, to have fun!
  
-## **What actually is the challenge I am trying to solve?**
+## <a name="challenge-statement">**What actually is the challenge I am trying to solve?**
  
 NUDM raises money for tons of different charitable organizations. Can you guess what goes hand in hand with charitable organizations? VOLUNTEERING! This hack is a chance for you to help **match volunteers with organizations and vice versa**. Who knows, maybe during the process you’ll find some awesome organization to get involved with.
  
@@ -32,14 +33,14 @@ Evanston Community Foundation -- cool kids call it ECF -- is a huge resource to 
 * Manage agency profile (CRUD)
 * Manage volunteer profile (CRUD)
 * Anything else you think would be awesome!!!
-## **Suggestions? [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!**
+## <a name="suggestions">**Suggestions? [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!**
  
 The above-mentioned list is a summary of our suggestions, but for our real suggestions, please see the suggestions document. You van view this excel sheet by downloadin the repository and opening suggestions.xslx. It is not expected that all (or even any) of the suggestions will get done, as they are in no particular order, but f you choose to solve the challenge of **match volunteers with organizations and vice versa**, in some other way, go at it! It will be more impressive if you get a few things done really well, rather than trying to do it all. However, if you can get it all done, and do it well then that’s cool too. Just make sure you follow our number one rule, HAVE FUN!
  
 Another thing to keep in mind besides having fun is to keep the ‘hack-a-thon’ mentality. This means the things you learn in school about security, complete features, and edge cases - erase from your mind. No need to consider those or things like login unless you really want to handle it. 
 
 
-## **Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?**
+## <a name="glossary">**Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?**
 
 Assuming you took a look at the suggestions document, you may have some questions on what all those things mean. Sit back relax, we have provided a glossary.  
 
@@ -57,7 +58,7 @@ Assuming you took a look at the suggestions document, you may have some question
 
 * **Volunteer/Opportunity Recommendations:** *This may be a really awesome piece of the challenge solution*. This is one of two things. It can be a list of opportunities suggested to a volunteer based on matching the opportunity’s details to the volunteer’s details. Or, it can be a list of volunteers that can be suggested to an agency based on matching the volunteer’s details to the opportunity’s details. 
 
-## **Um, how do I get my environment set up? And what about data?**
+## <a name="setup">**Um, how do I get my environment set up? And what about data?**
 
 Okay, so now that you have the basic guidelines down, it’s time to get started! You are free to do this in your own environment, but for those who would like a kick start, we have provided a Java starter. It is located [here](./setup.md). It also includes detailed instructions as well as a script to build your database and load your data. 
 
