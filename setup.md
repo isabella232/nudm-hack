@@ -1,5 +1,5 @@
 # Setting up your environment
-Remember, these are just suggestions if you need help with any of the below!
+Remember, these are just suggestions!  Please use all, some or none of the below.
 
 ## Download starter project
 The project includes the documentation and many other useful things that we'll use to setup your environment.

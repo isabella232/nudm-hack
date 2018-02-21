@@ -1,7 +1,10 @@
-TLDR; 
-[Setting up](./setup.md)
-[Submitting your project](#how-to-submit)
-Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
+#TLDR; 
+* [Setting up](./setup.md)
+* [Submitting your project](#how-to-submit)
+
+***
+
+### Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
  
 * Okay, I signed up for this, now what?
 * What actually is the challenge I am trying to solve?
