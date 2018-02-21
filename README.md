@@ -1,10 +1,10 @@
-Here you will find guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
+Here are the guidelines to the NUDM Hack-a-thon. This will cover everything you need to know, such as:
  
 * Okay, I signed up for this, now what?
 * What actually is the challenge I am trying to solve?
 * Suggestions? [What are those](https://www.youtube.com/watch?v=_H89WkFUG2U)?!
 * Huh? Can someone please define what is a Volunteer/Opportunity Recommendation?
-* Um, how do I get my environment set up? And what about data?
+* [Um, how do I get my environment set up? And what about data?](./setup.md)
 * How do I win? What do I win? Am I going to Disney World?
  
 ## **Okay, I signed up for this, now what?**
