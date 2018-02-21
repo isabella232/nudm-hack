@@ -62,8 +62,14 @@ We have created a sample schema with some random data in mySQL database for you 
     1. Download from here: [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
     2. Installation instructions [https://maven.apache.org/install.html](https://maven.apache.org/install.html)
     3. Test installation by running `mvn -h`
-4. From project root directory run `mvn tomcat:run`
+4. From project root directory run `mvn tomcat7:run`
     1. This command will use tomcat plugin to build your app and run in tomcat server on the default port: 8080
     2. To view your app, navigate to [http://localhost:8080/nudm-webapp/simple](http://localhost:8080/nudm-webapp/simple)
     3. You should see `SimpleServlet Executed` displayed on the screen
     
+## Understanding the starter app
+1. This is a simple java web app
+2. It has a sample servlet and a sample jsp to get you going
+    1. In the `./src/main/webapp` directory you'll see two jsp pages.  You could add your jsp's here.  The index.jsp will be displayed at the root url and if you would like to navigate to hello.jsp, you'd want to go to [http://localhost:8080/nudm-webapp/hello.jsp](http://localhost:8080/nudm-webapp/hello.jsp)
+    2. The servlet is located here: `./src/main/java/com/nudm/web/SimpleServlet.java`.    
+    You can navigate to the sample servlet at this location: [http://localhost:8080/nudm-webapp/simple](http://localhost:8080/nudm-webapp/simple) The http servlet version 3.0 can now be configured with annotations.
