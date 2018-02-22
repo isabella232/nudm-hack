@@ -1,5 +1,5 @@
 #TLDR; 
-* [Kickoff video](https://www.youtube.com/watch?v=_zU2siaMRs4&feature=youtu.be)
+* [Kickoff video](https://www.youtube.com/watch?v=qpwTzb5UzaQ&feature=youtu.be)
 * [Challenge Statement](#challenge-statement)
 * [Setting up](./setup.md)
 * [Submitting your project](#how-to-submit)
