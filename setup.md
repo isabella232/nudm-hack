@@ -1,6 +1,13 @@
 # Setting up your environment
 Remember, these are just suggestions!  Please use all, some or none of the below.
 
+# IDE - integrated development environment
+[Wiki definition](https://en.wikipedia.org/wiki/Integrated_development_environment)  
+
+Pick any IDE that you prefer.  If you need some suggestions for java development IDE's, here is a couple:
+1. [Eclipse](https://www.eclipse.org/users/) - Free and has lots of plugins available
+2. [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=mac) -  Very good tool with a free trial
+
 ## Download starter project
 The project includes the documentation and many other useful things that we'll use to setup your environment.
 
@@ -70,7 +77,22 @@ We have created a sample schema with some random data in mySQL database for you 
     
 ## Understanding the starter app
 1. This is a simple java web app
+2. The app comes with a tomcat plugin bundled with maven
+3. That means you can simply run `mvn tomcat7:run` to package and deploy the app to the Tomcat server
 2. It has a sample servlet and a sample jsp to get you going
     1. In the `./src/main/webapp` directory you'll see two jsp pages.  You could add your jsp's here.  The index.jsp will be displayed at the root url and if you would like to navigate to hello.jsp, you'd want to go to [http://localhost:8080/nudm-webapp/hello.jsp](http://localhost:8080/nudm-webapp/hello.jsp)
     2. The servlet is located here: `./src/main/java/com/nudm/web/SimpleServlet.java`.    
     You can navigate to the sample servlet at this location: [http://localhost:8080/nudm-webapp/simple](http://localhost:8080/nudm-webapp/simple) The http servlet version 3.0 can now be configured with annotations.
+3. Simple servlet shows you how to connect to your database, select some data and print it to the user.  The file has comments to help out with understanding
+4. You can do the same exact thing in your jsp page, checkout the hello.jsp page for details
+
+## Useful resources
+1. [Webapps](https://www.journaldev.com/1854/java-web-application-tutorial-for-beginners)
+2. [Maven in 5 minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+2. JDBC and Servlets
+    1. [Selecting data](https://www.mkyong.com/jdbc/jdbc-statement-example-select-list-of-the-records/)
+    2. [Updating data](https://www.mkyong.com/jdbc/jdbc-statement-example-update-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=3)
+    3. [Inserting data](https://www.mkyong.com/jdbc/jdbc-statement-example-insert-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=2)
+    4. [Deleting data](https://www.mkyong.com/jdbc/jdbc-statement-example-delete-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=2)
+4. [JSP Syntax](https://www.tutorialspoint.com/jsp/jsp_syntax.htm)
+5. [JDBC and JSP's](https://docs.oracle.com/cd/A97336_01/buslog.102/a83726/basics7.htm)
