@@ -1,6 +1,13 @@
 # Setting up your environment
 Remember, these are just suggestions!  Please use all, some or none of the below.
 
+# IDE - integrated development environment
+[Wiki definition](https://en.wikipedia.org/wiki/Integrated_development_environment)  
+
+Pick any IDE that you prefer.  If you need some suggestions for java development IDE's, here is a couple:
+1. [Eclipse](https://www.eclipse.org/users/) - Free and has lots of plugins available
+2. [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=mac) -  Very good tool with a free trial
+
 ## Download starter project
 The project includes the documentation and many other useful things that we'll use to setup your environment.
 
