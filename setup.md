@@ -87,4 +87,5 @@ We have created a sample schema with some random data in mySQL database for you 
     2. [Updating data](https://www.mkyong.com/jdbc/jdbc-statement-example-update-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=3)
     3. [Inserting data](https://www.mkyong.com/jdbc/jdbc-statement-example-insert-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=2)
     4. [Deleting data](https://www.mkyong.com/jdbc/jdbc-statement-example-delete-a-record/?utm_source=mkyong&utm_medium=author&utm_campaign=related-post&utm_content=2)
-4. [JDBC and JSP's](https://docs.oracle.com/cd/A97336_01/buslog.102/a83726/basics7.htm)
+4. [JSP Syntax](https://www.tutorialspoint.com/jsp/jsp_syntax.htm)
+5. [JDBC and JSP's](https://docs.oracle.com/cd/A97336_01/buslog.102/a83726/basics7.htm)
