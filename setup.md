@@ -24,14 +24,14 @@ The project includes the documentation and many other useful things that we'll u
     5. This will be the root project directory
 
 ## Database
-We have created a sample schema with some random data in mySQL database for you to use as a starting point.  Follow the below steps to download and install mySQL and then import the data.  Make sure you've got the start poroject on your machine.  It contains the data file.
+We have created a sample schema with some random data in mySQL database for you to use as a starting point.  Follow the below steps to download and install mySQL and then import the data.  Make sure you've got the start project on your machine.  It contains the data file.
 
 * Download mySQL database
     1. The download is available here: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
     
 * Install mySQL database  
     1. Note the password that you create for `root` user during the install process
-    2. The instrcutions are available here: [https://dev.mysql.com/doc/refman/5.7/en/installing.html](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
+    2. The instructions are available here: [https://dev.mysql.com/doc/refman/5.7/en/installing.html](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
     3. Make sure that mySQL is running.  Check for instructions on starting mySQL here: [https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
     
 * Import provided schema
