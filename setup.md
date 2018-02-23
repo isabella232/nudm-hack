@@ -118,7 +118,11 @@ We have created a sample schema with some random data in mySQL database for you 
         3. [http://localhost:8080/nudm-webapp/hello.jsp](http://localhost:8080/nudm-webapp/hello.jsp)
     3. For the `/simple` path you should see:
     ![screen shot](screenshot1.png)
-    
+    4. For the root path you should see:
+    ![screen shot 3](screenshot3.png)
+    5. For the `/hello.jsp` path you should see:
+    ![screen shot 2](screenshot2.png)
+        
 ## Understanding the starter app
 1. This is a simple java web app
 2. The app comes with a tomcat plugin bundled with maven
