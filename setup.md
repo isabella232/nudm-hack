@@ -27,21 +27,19 @@ The project includes the documentation and many other useful things that we'll u
 We have created a sample schema with some random data in mySQL database for you to use as a starting point.  Follow the below steps to download and install mySQL and then import the data.  Make sure you've got the start project on your machine.  It contains the data file.
 
 * Download mySQL database
-
-    The download is available here: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+    1. The download is available here: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
     
-* Install mySQL database
-    
-    The instructions are available here: [https://dev.mysql.com/doc/refman/5.7/en/installing.html](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
-    
-    Make sure that mySQL is running.  Check for instructions on starting mySQL here: [https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
+* Install mySQL database  
+    1. Note the password that you create for `root` user during the install process
+    2. The instructions are available here: [https://dev.mysql.com/doc/refman/5.7/en/installing.html](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
+    3. Make sure that mySQL is running.  Check for instructions on starting mySQL here: [https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing)
     
 * Import provided schema
     1. Login to mysql in terminal
     ```bash
     mysql -u root -p
     ```
-    2. Use `root` as the password when prompted
+    2. Use the password you've created for `root` user during installation process
     3. Create application user
     ```bash
     GRANT ALL PRIVILEGES ON *.* TO 'app'@'localhost' IDENTIFIED BY 'app';
