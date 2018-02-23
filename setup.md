@@ -64,7 +64,7 @@ We have created a sample schema with some random data in mySQL database for you 
     
 ## Getting starter project to run in tomcat
 1. Maven or Gradle could be used to build and deploy the project
-2. These instructions will use Maven, but gradle is setup in the project and could be used as well if that is something you feel more comfortable with
+2. These instructions will use Maven
 3. Downloading and Installing Maven
     1. Download from here: [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
     2. Installation instructions [https://maven.apache.org/install.html](https://maven.apache.org/install.html)
