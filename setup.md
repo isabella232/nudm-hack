@@ -42,6 +42,7 @@ We have created a sample schema with some random data in mySQL database for you 
     2. Use the password you've created for `root` user during installation process
     3. Create application user
     ```bash
+    CREATE USER 'app'@'localhost' IDENTIFIED BY 'app';
     GRANT ALL PRIVILEGES ON *.* TO 'app'@'localhost' IDENTIFIED BY 'app';
     ```
     4. Quit mysql prompt `\q`
@@ -69,9 +70,54 @@ We have created a sample schema with some random data in mySQL database for you 
     2. Installation instructions [https://maven.apache.org/install.html](https://maven.apache.org/install.html)
     3. Test installation by running `mvn -h`
 4. From project root directory run `mvn tomcat7:run`
+    1. Expected output is below:
+        ```bash
+        [INFO] Scanning for projects...
+        [WARNING] 
+        [WARNING] Some problems were encountered while building the effective model for com.nudm.webapp:nudm-webapp:war:1.0-SNAPSHOT
+        [WARNING] 'build.plugins.plugin.version' for org.apache.tomcat.maven:tomcat7-maven-plugin is missing. @ line 26, column 15
+        [WARNING] 
+        [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+        [WARNING] 
+        [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+        [WARNING] 
+        [INFO]                                                                         
+        [INFO] ------------------------------------------------------------------------
+        [INFO] Building nudm-webapp Maven Webapp 1.0-SNAPSHOT
+        [INFO] ------------------------------------------------------------------------
+        [INFO] 
+        [INFO] >>> tomcat7-maven-plugin:2.2:run (default-cli) @ nudm-webapp >>>
+        [INFO] 
+        [INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ nudm-webapp ---
+        [debug] execute contextualize
+        [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+        [INFO] Copying 0 resource
+        [INFO] 
+        [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ nudm-webapp ---
+        [INFO] Nothing to compile - all classes are up to date
+        [INFO] 
+        [INFO] <<< tomcat7-maven-plugin:2.2:run (default-cli) @ nudm-webapp <<<
+        [INFO] 
+        [INFO] --- tomcat7-maven-plugin:2.2:run (default-cli) @ nudm-webapp ---
+        [INFO] Running war on http://localhost:8080/nudm-webapp
+        [INFO] Using existing Tomcat server configuration at /Users/dmitryrozental/git/nudm-webapp/target/tomcat
+        [INFO] create webapp with contextPath: /nudm-webapp
+        Feb 23, 2018 3:21:15 PM org.apache.coyote.AbstractProtocol init
+        INFO: Initializing ProtocolHandler ["http-bio-8080"]
+        Feb 23, 2018 3:21:15 PM org.apache.catalina.core.StandardService startInternal
+        INFO: Starting service Tomcat
+        Feb 23, 2018 3:21:15 PM org.apache.catalina.core.StandardEngine startInternal
+        INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+        Feb 23, 2018 3:21:17 PM org.apache.coyote.AbstractProtocol start
+        INFO: Starting ProtocolHandler ["http-bio-8080"]
+        ```
     1. This command will use tomcat plugin to build your app and run in tomcat server on the default port: 8080
-    2. To view your app, navigate to [http://localhost:8080/nudm-webapp/simple](http://localhost:8080/nudm-webapp/simple)
-    3. You should see `SimpleServlet Executed` displayed on the screen
+    2. To view your app, navigate to either one of the below.  We will explain in the next seciton what those pages are.
+        1. [http://localhost:8080/nudm-webapp/simple](http://localhost:8080/nudm-webapp/simple)
+        2. [http://localhost:8080/nudm-webapp/](http://localhost:8080/nudm-webapp/)
+        3. [http://localhost:8080/nudm-webapp/hello.jsp](http://localhost:8080/nudm-webapp/hello.jsp)
+    3. For the `/simple` path you should see:
+    ![screen shot](screenshot1.png)
     
 ## Understanding the starter app
 1. This is a simple java web app
