@@ -82,9 +82,9 @@ The first round of judging for the three finalists will be judged on the followi
 * Ingenuity
 * Team experience (is your team mainly newbies, or soon to be graduates?)
 
-## **What do I win?**
+## **What does the winning team win?**
 
-Bragging rights! Some awesome HS2 Swag! And $2,000 will be allocated to the NUDM fundraising totals to the dance-a-thon team or individual chosen by the tech challenge winners. 
+The winning team will win bragging rights, awesome HS2 swag, and a total of $2,000 towards their NUDM fundraising goal!
 
 ## **Am I going to Disney World?**
 
